@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Project Status](https://img.shields.io/badge/status-planning-blue)
+![Project Status](https://img.shields.io/badge/status-development-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange)
 
@@ -11,7 +11,7 @@
 
 *Empowering Education through Digital Storytelling*
 
-[📖 設計規劃](./DESIGN_PLAN.md) • [🎨 視覺規範](./VISUAL_DESIGN_SPECS.md) • [💻 技術指南](./TECHNICAL_GUIDE.md)
+[📖 設計規劃](./DESIGN_PLAN.md) • [🎨 視覺規範](./VISUAL_DESIGN_SPECS.md) • [💻 技術指南](./TECHNICAL_GUIDE.md) • [🚀 部署指南](./DEPLOYMENT_GUIDE.md)
 
 </div>
 
@@ -125,14 +125,17 @@ Git
 git clone https://github.com/your-username/Journal-of-Digital-Narrative-Website.git
 cd Journal-of-Digital-Narrative-Website
 
-# 2. 安裝依賴（待開發階段建立）
+# 2. 安裝依賴
 npm install
 
-# 3. 啟動開發伺服器（待開發階段建立）
+# 3. 啟動開發伺服器
 npm run dev
 
-# 4. 建構專案（待開發階段建立）
+# 4. 建構專案
 npm run build
+
+# 5. 預覽建構結果
+npm run preview
 ```
 
 ---
@@ -238,11 +241,12 @@ npm run build
 - [ ] 製作互動原型
 - [ ] 準備設計資源
 
-### 階段三：前端開發 ⏳
-- [ ] 環境設定與專案初始化
-- [ ] 基礎架構開發
-- [ ] 首頁開發
-- [ ] 內頁開發
+### 階段三：前端開發 ✅
+- [x] 環境設定與專案初始化
+- [x] 基礎架構開發
+- [x] 首頁開發
+- [x] 關於吳奇老師頁面開發
+- [ ] 文章列表頁開發
 - [ ] 互動功能實作
 
 ### 階段四：內容整合 ⏳
@@ -310,10 +314,31 @@ npm run build
 ## 📈 專案狀態
 
 ```
-當前階段: 設計規劃完成 ✅
-下一步驟: 開始設計原型
-完成度: ████░░░░░░ 40%
+當前階段: 初始開發完成 ✅
+下一步驟: 內容整合與完善功能
+完成度: ███████░░░ 70%
 ```
+
+### 已完成功能
+
+- ✅ 完整的專案架構
+- ✅ Astro + Tailwind CSS 配置
+- ✅ 響應式導覽列與頁尾
+- ✅ 首頁（包含 Hero、簡介、主題、CTA 區塊）
+- ✅ 關於吳奇老師完整頁面
+- ✅ 視覺設計系統實作
+- ✅ 動畫效果整合
+- ✅ SEO 優化基礎
+- ✅ 部署指南文件
+
+### 待開發功能
+
+- ⏳ 文章列表頁
+- ⏳ 文章內容頁（MDX 支援）
+- ⏳ 搜尋功能
+- ⏳ 標籤與分類系統
+- ⏳ 聯絡表單
+- ⏳ 電子報訂閱功能
 
 ---
 
